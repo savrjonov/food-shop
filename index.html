@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-4/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="modal">
+        <h1 class="text-warning">Busket</h1>
+        <table id="table" class="table">
+            <tbody id="tbody">
+            </tbody>
+        </table>
+        <div class="total-area text-success">Total- <span class="total">0</span></div>
+        <div class="model-btn"><button id="buy" class="bg-success">Buy Now</button><button id="cancel" class="bg-danger">Cancel</button></div>
+    </div>
+    <div id="thanks" style="visibility: hidden;">
+        <span style="font-size: 40px;">😀</span> Xaridigiz uchun raxmat
+    </div>
+  
+    <nav>
+        <div class="naw-left">
+            <div class="img">
+                <img src="./food/logo.png">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#features">Fetures</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <button id="korzinka"><i class="bi bi-cart"></i><span class="korzinka">0</span></button>
+        </div>
+        
+    </nav>
+    <div class="container w-100 intro d-flex align-items-center" id="home">
+       
+        <div class="header-box">
+            <h1>Making time a good time by marking food the good food</h1>
+            <p class="my-4">There are many things are needed to start the Fast Food Business. You need not only Just
+                Food Stalls
+                with Persons but also specialized equipment,</p>
+                <div class="button">
+                    <button>Order Now</button>
+                    <button class="mx-3">Foot Detalis</button>
+                </div>
+        </div>
+        <div class="header-box">
+            <img src="./food/eat-4.png" alt="">
+        </div>
+    </div>
+    <!-- features -->
+    <div class="container w-100"id="features">
+        <div class="row w-100 h-25 d-flex top"
+            style="font-weight: 500;">
+            <span>Features</span>
+            <span>Food with a New Passion</span>
+        </div>
+        <div class="feature-area row w-100 h-75">
+            <div class="feature-box">
+                <div class="img-area d-flex justify-content-center">
+                    <div class="img">
+                        <img src="./food/hous.png" class="w-50 h-50">
+                    </div>
+                </div>
+                <div class="features-card-title">
+                    Quality Food
+                </div>
+                <div class="features-card-text d-flex">
+                    it can be a very secure path to earn good money and make you very successful creative entrepreneur.
+                </div>
+            </div>
+            <div class="feature-box">
+                <div class="img-area d-flex justify-content-center">
+                    <div class="img">
+                        <img src="./food/food-delivery.png" class="w-50 h-5 0">
+                    </div>
+                </div>
+                <div class="features-card-title">
+                    Food Delivery
+                </div>
+                <div class="features-card-text d-flex">
+                    it can be a very secure path to earn good money and make you very successful creative entrepreneur.
+                </div>
+            </div>
+            <div class="feature-box">
+                <div class="img-area d-flex justify-content-center">
+                    <div class="img">
+                        <img src="./food/smile.png" class="w-50 h-50">
+                    </div>
+                </div>
+                <div class="features-card-title">
+                    Super Tate
+                </div>
+                <div class="features-card-text d-flex">
+                    it can be a very secure path to earn good money and make you very successful creative entrepreneur.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div class="container w-100 d-flex" id="about">
+        <div class="about-us-img w-50 d-flex align-items-center justify-content-center h-100">
+            <img src="./food/Users.png">
+        </div>
+        <div class="w-50 about-us-text h-100 d-flex flex-column justify-content-center">
+            <span style="font-weight:600;color: #DC780B;">About us</span>
+            <span>Food Stalls with Persons but to Product marketing plane
+                catlogues etc to</span>
+            <span style="color:rgb(184, 184, 184)">There are many things are needed to start the Fast Food Business. You
+                need not only Just Food Stalls with Persons but also specialized equipment</span>
+            <button>Read More</button>
+        </div>
+    </div>
+
+    <!-- menu -->
+    <div class="container w-100" style="height: auto;" id="menu">
+        <div class="row w-100 d-flex flex-column align-items-center">
+            <span style="font-weight:600;color: #DC780B;">Menu</span>
+            <span style="font-size: 25px;font-weight: 700;">Food Fool of treaty Love</span>
+            <span style="color:rgb(184, 184, 184);text-align: center;">There are many things are needed to start the
+                Fast Food Business. You need not only Just Food Stalls with Persons but also specialized
+                equipment,Skills to manage customer</span>
+        </div>
+        <div class="row d-flex justify-content-between" id="product-list">
+            <!-- card-menu -->
+        </div>
+    </div>
+
+
+    <div class="w-100  d-flex flex-column justify-content-center align-items-center" style="height: 100px;">
+                <button style=" height: 45px;
+                width: 140px;
+                border: 1px solid rgb(139, 139, 139);
+                border-radius: 5px;
+                background-color: transparent;
+                color: #DC780B;
+                text-align: center;">Learn more</button>
+    </div>
+    <!-- phone -->
+    <div class="instal-area container w-100 d-flex">
+        <div class="left w-50 h-100 d-flex justify-content-center align-items-center">
+            <div class="left-box  d-flex justify-content-center flex-column w-100"  style="height: 300px;">
+                <span style="color:#DC780B">Take away</span>
+                <span>
+                    Food stalls with persons but to product marketing plane
+                </span>
+                <span style="color:rgb(184, 184, 184);">
+                    There are many things are needed to start the
+                    Fast Food Business. You need not only Just Food Stalls with Persons but also specialized
+                    equipment,Skills to manage customer
+                </span>
+                <span class="instal-btns">
+                    <button><img src="./food/Download_on_the_App_Store_Badge.svg.png"></button>
+                    <button><img src="./food/Google_Play_Store_badge_EN.svg.png"></button>
+                </span>
+            </div>
+        </div>
+        <div class="right w-50 h-100">
+            <div class="mobile-img">
+                <img src="./food/mobil.png">
+            </div>
+        </div>
+    </div>
+
+    <!-- workers -->
+    <div class="workers-area container d-flex flex-column align-items-center justify-content-center">
+        <span>
+            Testmonial
+        </span>
+        <span >
+            Making food great again and again
+        </span>
+        <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque explicabo assumenda voluptas! Ducimus, optio molestiae eos iusto fugiat hic aliquam.
+        </span>
+        <span class="caroucel-area">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 100%;height: 150px;">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                        <div class="worker">
+                            <div class="img">
+                                <img src="./food/user.png">
+                            </div>
+                            <div class="info" style="width: 100%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tempora iure, ratione odio corrupti id voluptatibus facere laboriosam optio modi?</div>
+                            <div class="star">
+                                &starf;
+                                &starf;
+                                &starf;
+                                &starf;
+                                &starf;
+                            </div>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="worker">
+                        <div class="img">
+                            <img src="./food/user.png">
+                        </div>
+                        <div class="info" style="width: 100%;text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tempora iure, ratione odio corrupti id voluptatibus facere laboriosam optio modi?</div>
+                        <div class="star">
+                            &starf;
+                            &starf;
+                            &starf;
+                            &starf;
+                            &starf;
+                        </div>
+                    </div>
+              </div>
+              <div class="carousel-item">
+                <div class="worker">
+                    <div class="img">
+                        <img src="./food/user.png">
+                    </div>
+                    <div class="info" style="width: 100%;text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tempora iure, ratione odio corrupti id voluptatibus facere laboriosam optio modi?</div>
+                    <div class="star">
+                        &starf;
+                        &starf;
+                        &starf;
+                        &starf;
+                        &starf;
+                    </div>
+                </div>
+              </div>
+                </div>
+                <div class="carousel-control-prev ">
+                    <button class="carousel-control"  href="#carouselExampleControls" data-slide="prev"><</button>
+                </div>
+                <div class="carousel-control-next">
+                    <button class="carousel-control"  href="#carouselExampleControls" data-slide="prev">></button>
+                </div>
+              </div>
+        </span>
+        <span style="font-size: 17px;font-weight: 500;">
+            Augusta W.reynosa
+        </span>
+        <span  style="font-size: 17px;font-weight: 500;">
+            UI&UX designer
+        </span>
+    </div>
+    <!-- contact -->
+    <div class="email-area" id="contact">
+        <span>
+            Contact
+        </span>
+        <span>
+            Food stalls with persons but to product marketing plane Lorem ipsum dolor sit amet consectetur adipisicing
+        </span>
+        <span style="padding: 40px 0;">
+            <div class="input">
+                <input type="text" placeholder="Your email">
+                <button style="color:white">Send</button>
+            </div>
+        </span>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="row">
+            <div class="col-3">
+                <img src="./food/logo.png">
+                <span>www.company.@name.com </span>
+                <span>company.name.com</span>
+                <span>phone +7 4234 246472 2</span>
+            </div>
+            <div class="col-3">
+                <span>Home</span>
+                <span>Landingpage</span>
+                <span>Documantion</span>
+                <span>Referal program</span>
+                <span>UI&UX Desidn</span>
+                <span>Web design</span>
+            </div>
+            <div class="col-3">
+                <span>Menu</span>
+                <span>Landingpage</span>
+                <span>Documantion</span>
+                <span>Referal program</span>
+                <span>UI&UX Desidn</span>
+                <span>Web design</span>
+            </div>
+            <div class="col-3">
+                <span>Company</span>
+                <span>Landingpage</span>
+                <span>Documantion</span>
+                <span>Referal program</span>
+                <span class="massenger">
+                    <img src="./food/instagram.png" >
+                    <img src="./food/facebook.png">
+                    <img src="./food/twitter 1.png" >
+                    <img src="./food/you-tube.png"  >
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./bootstrap-4/js/jQuery.min.js"></script>
+<script src="./bootstrap-4/js/popper.js"></script>
+<script src="./bootstrap-4/js/bootstrap.js"></script>
+<script src="./main.js"></script>
+
+</html>
